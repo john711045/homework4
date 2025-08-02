@@ -1,4 +1,19 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+
+/*nav*/
+.nav{
+    max-width: 1296px;
+    align-items: center;
+    margin: 0 auto;
+}
+.nav-l{
+    margin-right: auto;
+}
+.nav-r{
+    padding-right: 12px;
+}
+@media screen and (max-width:576px){
+    .dn{
+        display: none;
+    }
+
 }
