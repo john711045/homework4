@@ -1,0 +1,158 @@
+.hp {
+    padding-left: 0; // 移除左側內距
+    margin-left: 0;  // 確保沒有左邊距
+}
+
+
+
+.col-2{
+    width: 16.6667%;
+}
+
+
+@media screen and (max-width:992px){
+    .side-l{
+        display: none;
+    }
+
+}
+
+.product{
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.col-10{
+    flex:1;
+    width: 83.3333%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+@media screen and (max-width: 576px){
+    .row{
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .row{
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+}
+
+.col-4{
+    width: 33.3333%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.col-4 img{
+    width: 100%;
+    height: auto;
+}
+
+
+@media screen and (max-width: 576px){
+    .col-4{
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .col-4{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+.page  {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width:768px){
+    .col-sm-2{
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    
+
+    }
+
+
+}
+@media screen and (max-width:576px){
+    .col-sm-2{
+        width: 100%;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+
+}
+@media screen and (max-width: 400px){
+    .col-sm-2{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+
+.page a{
+    font-family:"Noto Sans TC", "sans-serif";
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: var(--neutral-900);
+    padding: 8px 15px;
+}
+
+.page a:hover{
+    background-color: var(--primary-300);
+}
+.mga{
+    margin: 0 auto;
+}
+
+.product-card{
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer; 
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 400px){
+
+    
+    /* 調整產品區域的最大寬度 */
+    .product{
+        max-width: 100%;
+    }
+    
+    /* 確保圖片不會超出容器 */
+    .product-card img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* 調整分頁按鈕的內邊距 */
+    .page a{
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+}

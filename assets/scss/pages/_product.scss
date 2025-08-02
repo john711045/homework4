@@ -1,0 +1,222 @@
+
+/*格式*/
+.col-7{
+    max-width: 58.3333%;
+    padding: 4px;
+
+}
+
+
+@media screen and (max-width:992px){
+    .col-md-7{
+        max-width:100%;
+        width: 100%;    
+        padding-left: 12px;
+        padding-right:12px ;  
+    }
+
+
+}
+
+@media screen and (max-width:768px){
+    .col-md-7{
+        width: 100%;    
+        padding-left: 12px;
+        padding-right:12px ;  
+        margin: 0 auto;
+    }
+
+
+}
+
+
+@media screen and (max-width:576px){
+    .content{
+        flex-direction: column;
+    }
+    .dn{
+        display: none;
+    }
+
+
+}
+
+.card{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin: 0 auto;
+}
+.row{
+
+    margin-left: -4px;
+    margin-right: -4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    width: 50%;
+    
+    padding: 4px;
+
+}
+
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+/* .card{
+    width: 50%;
+    
+
+} */
+
+@media screen and (max-width:992px){
+    .col-6{
+        width: 100%;    
+        padding-left: 12px;
+        padding-right:12px ;  
+    }
+
+}
+
+.col-5{
+    max-width: 41.6666%;
+    margin-left: 12px;
+}
+@media screen and (max-width:992px){
+    .col-lg-5{
+        max-width:100%;
+        width: 100%;    
+        padding-left: 12px;
+        padding-right:12px ;  
+        align-items: center;  
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:576px){
+
+
+    .col-sm-5{
+        width: 100%;    
+        padding-left: 12px;
+        padding-right:12px ;  
+        margin: 0 auto;
+    }
+
+
+}
+
+
+.before-slash::before{
+    content: "/";
+    display: inline-block; 
+    margin-right: 12px; 
+    color: var(--neutral-300);
+}
+
+.shoescolor-color{
+    max-width: 64px;
+    text-align: center;
+    cursor: pointer;    
+}
+.shoescolor-color img{
+    width: 100%;
+    height: auto;
+}
+.shoescolor-color:hover{
+    border: 1px solid rgb(65, 71, 165);
+    
+    cursor: pointer;
+
+}
+
+.size-card{
+    max-width: 160px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    background-color: white;
+    text-align: center;
+    border: 1px solid $neutral-300;
+}
+
+.size-card:hover{
+    border: 1px solid black;
+}
+
+.size-card.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+
+
+.choose button{
+    display: block;
+    width: 49%;
+    padding: 12px ;
+    background-color: white;
+    cursor: pointer;
+}
+
+.material{
+    border-bottom: 1px solid var(--neutral-300);
+    
+}
+
+.maylike{
+    max-width: 1296px;
+    overflow: hidden; /* 隱藏 X 軸滾動條 */
+    position: relative;
+}
+
+.maylike-type{
+    flex: 0 0 auto; /* 不縮放，保持固定寬度 */
+    width: 33.333%;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+.maylike-type img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:992px){
+    .maylike-type{
+        width: 280px;    
+        padding-left: 12px;
+        padding-right:12px ;  
+        max-width: none; 
+        position: static;
+        
+    }
+
+}
+
+.maylike-type:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+
+.rowb{
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+
+
+
+.add-to-favorites:hover{
+    background-color: black;
+    color: white;
+}
+

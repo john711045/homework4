@@ -1,0 +1,284 @@
+
+
+
+/* 顏色 */
+
+$neutral-300:#DEE2E6;
+$neutral-500:#ADB5BD;
+$neutral-600:#6C757D;
+$neutral-900:#212529;
+$neutral-white:#FFFFFF;
+$neutral-100:#f8f9fa;
+$primary-100:#F5FEE7;
+$primary-200:#E8FEC5;    
+$primary-300:#C0FA73;
+$primary-400:#57A203;
+$danger-300:#D74F4F;
+
+
+
+.n3{
+    color: $neutral-300;
+}
+.n5{
+    color: $neutral-500;
+}
+.n6{
+    color: $neutral-600;
+}
+.n9{
+    color: $neutral-900;
+}
+
+.n0{
+    color: $neutral-white;
+}
+.n1{
+    color: $neutral-100;
+}
+.p1{
+    color: $primary-100;
+}
+
+.p4{
+    color: $primary-400;
+}
+
+
+/*基本樣式*/
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family:"Noto Sans TC", "sans-serif";
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05rem;
+    color: $neutral-900;
+
+    font-weight: 500;
+}
+/*Label*/
+.md{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+} 
+
+img{
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    color: $neutral-900;
+    display: block;
+}
+
+
+h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h2{
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700; 
+}
+h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700; 
+}
+
+h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h5{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+h6{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+
+}
+
+.h6{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+
+}
+
+/*Paragraph*/
+.sm{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+
+
+
+
+.bg-primary-100{
+    background-color: $primary-100;
+}
+
+/*字的裝飾*/
+.line-through{
+    text-decoration: line-through;
+}
+.text-underline-offset{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+/*位移*/
+.pt-8{
+    padding-top: 8px;
+}
+
+.pt-12{
+    padding-top: 12px;
+}
+.pt-16{
+    padding-top: 16px;
+}
+.pb-4{
+    padding-bottom: 4px;
+}
+.pb-8{
+    padding-bottom: 8px;
+}
+.pb-12{
+    padding-bottom: 12px;
+}
+.pb-16{    
+    padding-bottom: 16px;
+}
+.pb-24{
+    padding-bottom: 24px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.px-12{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mt-16{
+    margin-top: 16px;
+}
+.mt-32{
+    margin-top: 32px;
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+.mb-48{
+    margin-bottom: 48px;
+}
+
+.mr-8 {
+    margin-right: 8px;
+}
+.mr-12{
+    margin-right: 12px;
+}
+.mr-40{
+    margin-right: 40px;
+}
+
+.mr-48{
+    margin-right: 48px;
+}
+
+/*****/
+
+.p-32{
+    padding: 32px;
+}
+
+.py-8{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.py-64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+
+.pe-8{
+    padding-right: 8px;
+}
+
+
+
+
+.d-flex{
+    display: flex;
+}
+.d-inline{
+    display: inline;
+}
+.justify-content-sb{
+    justify-content: space-between;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/* 通用樣式 */
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+@media screen and (max-width:992px){
+    .container{
+        width: 100%;    
+        padding-left: 12px;
+        padding-right:12px ;  
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .container {
+        padding-left: 8px;
+        padding-right: 8px;
+        /* overflow-x: hidden; */
+    }
+}
+

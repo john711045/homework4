@@ -1,0 +1,110 @@
+/*footer*/
+.footer{
+    max-width: 1296px;
+    margin: 64px auto;
+    
+}
+.footer-t{
+    border-bottom: 1px solid $neutral-300;
+}
+
+.footer-t-r{
+    color: $neutral-900;
+}
+
+.footer-b p{
+    color: $neutral-600;
+}
+.footer-b{
+    justify-content: center;
+}
+@media screen and (max-width: 576px) {
+    .footer {
+        padding-left:12px;  /* 讓內容離開螢幕邊緣 */
+        padding-right: 12px;
+        box-sizing: border-box;
+    }
+    .footer-t {
+        flex-direction: column;    /* 主區塊垂直排列 */
+        align-items: flex-start;       
+        text-align: left;
+        
+    }
+
+    .footer-t-r {
+        flex-direction: column;    /* 讓連結垂直排列 */
+        justify-content: center;
+        padding-left: 12px;
+        gap: 16px; /* 控制上下間距 */
+    }
+}
+
+
+
+.copyright{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.mga{
+    margin: 0 auto;
+}
+.member{
+    background-color:$primary-200;
+}
+
+.member button{
+    background-color: black;
+    color: white;
+    margin:  24px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:576px){
+    .mga{
+        flex-direction: column;
+        align-items: center;  
+        margin: 0 auto;
+    }
+    .member button{
+        margin-top: 8px;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .member button{
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+}
+
+.member button:hover{
+    color: black;
+    background-color: white;
+
+}
+
+.count{
+    margin-top:33.5px ;
+    margin-bottom: 33.5px;
+    
+}
+
+@media screen and (max-width:576px){
+    .count{
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 700;
+        
+    }
+
+
+}
